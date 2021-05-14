@@ -40,7 +40,7 @@ const menu = (tanggal, jam, pushname, sender, prem_, Lxa, prefix, user, uptime, 
 ├╼ *${prefix}menu premium*
 ├╼ *${prefix}menu owner*
 └──────────────
-┌───⊷ *ABOUT LEXA* ⊶
+┌───⊷ *ABOUT BAY* ⊶
 ├╼ *${prefix}Simi*
 ├╼ *${prefix}Info*
 ├╼ *${prefix}Owner*
@@ -50,12 +50,8 @@ const menu = (tanggal, jam, pushname, sender, prem_, Lxa, prefix, user, uptime, 
 ├╼ *${prefix}Blocklist*
 ├╼ *${prefix}Install*
 └──────────────
-  ≡ *Credits by*
-▢ MrfZvx12 (Ma'ruf)
-▢ Moo-d (NazwaS)
-  ≡ *Thanks To*
-▢ Mhankbarbar
-▢ All Owners Bot
+  ≡ *BOT by*
+▢ BAY (zhu)
 ──────────────────────
 Made With ❤️
 © *Dev & Owner*`
@@ -85,7 +81,7 @@ else if (!isGroup) return`▢ ${tanggal()}
 ├╼ *${prefix}menu premium*
 ├╼ *${prefix}menu owner*
 └──────────────
-┌───⊷ *ABOUT LEXA* ⊶
+┌───⊷ *ABOUT BAY* ⊶
 ├╼ *${prefix}Simi*
 ├╼ *${prefix}Info*
 ├╼ *${prefix}Owner*
@@ -96,11 +92,7 @@ else if (!isGroup) return`▢ ${tanggal()}
 ├╼ *${prefix}Install*
 └──────────────
   ≡ *Credits by*
-▢ MrfZvx12 (Ma'ruf)
-▢ Moo-d (NazwaS)
-  ≡ *Thanks To*
-▢ Mhankbarbar
-▢ All Owners Bot
+▢ BAY (zhu)
 ──────────────────────
 Made With ❤️
 © *Dev & Owner*`

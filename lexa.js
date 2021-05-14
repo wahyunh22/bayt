@@ -82,7 +82,7 @@ const banned = [
 const premium = [
   ];
 const ownerNumber = [
-  "6282223014661@s.whatsapp.net",
+  "6285331291446@s.whatsapp.net",
   ];
 
 //-- Apikey

@@ -31,12 +31,7 @@ return `  ≡ *INFORMASI*
 ├╼ Versi Wa : ${Lxa.user.phone.wa_version}
 └──────────────
 
-▢ Github :
-https://github.com/mrfzvx12/lexav3
-▢ BASE :
-https://github.com/MhankBarBar/termux-wabot
-▢ DEV :
-https://github.com/mrfzvx12
+
 `
 }
 exports.info = info

@@ -22,7 +22,7 @@ const group = () => {
 
 //-- 
 const ban = () => {
-  return '● Kamu masuk kedalam ban list, silahkan bayar 5k untuk membuka ban'
+  return '● Kamu masuk kedalam ban list, silahkan hubungi owner untuk membuka ban'
 }
 
 //--
@@ -47,7 +47,7 @@ const admin = () => {
 
 //--
 const Badmin = () => {
-  return '● Jadikan Lexa Admin terlebih dahulu!'
+  return '● Jadikan Bot Admin terlebih dahulu!'
 }
 
 

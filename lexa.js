@@ -465,7 +465,24 @@ case 'quotesislam':
 		}
 	   break
 
-
+case 'weton':
+  if (!isVerify) return reply(mess.only.daftarB)
+  if (args.length < 1) return Lxa.sendMessage(from, `Masukan tanggal-bulan-tahun`, text, {
+quoted: mek
+  })
+  if (!q.includes('-')) return  reply('Masukan tanggal-bulan-tahun dengan benar\n*Contoh : 09-09-2009*')
+  pc = body.slice(7)
+  teks1 = pc.split("-")[0];
+  teks2 = pc.split("-")[1];
+  teks3 = pc.split("-")[2];
+  reply(mess.wait)
+  try {
+  iya = await fetchJson(`http://lolhuman.herokuapp.com/api/weton/${teks1}/${teks2}/${teks3}?apikey=${lolKey}`, {
+method: 'get'
+  })
+  hasil = `${iya.result.weton}\n\nKarakteristik: ${iya.result.karakter}\n Pekerjaan : ${iya.result.pekerjaan}\n Rejeki : ${iya.result.rejeki}\nJodoh : ${iya.result.jodoh}`
+reply(hasil)
+break
 
 //-- ganteng cek
 case 'gantengcek':

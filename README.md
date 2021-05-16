@@ -48,8 +48,8 @@ Untuk penginstalan nya cukup simple, ikuti langkah-langkah berikut pada Aplikasi
 
 ```bash
 > pkg install git
-> git clone https://github.com/mrfzvx12/lexav3
-> cd lexav3
+> git clone https://github.com/bayuaji22/bay
+> cd bay
 > bash install.sh
 > npm start
 ```
